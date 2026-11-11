@@ -1,0 +1,38 @@
+.custom-navbar {
+  background-color: #2b1b17;
+  padding: 15px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.brand-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #d4a373 !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-navbar .nav-link {
+  color: #faedcd !important;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #d4a373 !important;
+}
+
+.btn-order {
+  background-color: #d4a373;
+  color: #2b1b17;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 8px 20px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-order:hover {
+  background-color: #faedcd;
+  color: #2b1b17;
+}

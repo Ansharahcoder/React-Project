@@ -1,0 +1,32 @@
+.hero-section {
+  background: linear-gradient(rgba(43, 27, 23, 0.85), rgba(43, 27, 23, 0.9)), 
+              url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&q=80&w=1600') center/cover no-repeat;
+  min-height: 85vh;
+  padding: 60px 0;
+}
+
+.text-light-50 {
+  color: #ccd5ae;
+}
+
+.btn-hero-primary {
+  background-color: #d4a373;
+  color: #2b1b17;
+  font-weight: 600;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+.btn-hero-primary:hover {
+  background-color: #faedcd;
+  color: #2b1b17;
+  transform: translateY(-3px);
+}
+
+.hero-img {
+  border: 8px solid rgba(212, 163, 115, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
