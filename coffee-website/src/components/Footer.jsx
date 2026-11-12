@@ -13,7 +13,7 @@ const Footer = () => {
             <p className="footer-text">
               Bringing you the freshest coffee and warm moments every single day. Visit our cafe or order online anytime!
             </p>
-            <div className="d-flex gap-3 social-icons mt-3">
+            <div className="d-flex gap-3 social-icons mt-3 ">
               <a href="#facebook"><i className="bi bi-facebook"></i></a>
               <a href="#instagram"><i className="bi bi-instagram"></i></a>
               <a href="#twitter"><i className="bi bi-twitter"></i></a>
@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <h5 className="footer-heading mb-3">Contact Us</h5>
             <p className="footer-text mb-1"><i className="bi bi-geo-alt me-2"></i>123 Coffee Street, City</p>
-            <p className="footer-text mb-1"><i className="bi bi-envelope me-2"></i>info@brewandbean.com</p>
+            <p className="footer-text mb-1"><i className="bi bi-envelope me-2"></i>coffee@456gmail.com</p>
             <p className="footer-text"><i className="bi bi-telephone me-2"></i>+123 456 7890</p>
           </div>
         </div>

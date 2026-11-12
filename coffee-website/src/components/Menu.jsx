@@ -2,15 +2,16 @@ import React from 'react';
 import './Menu.css';
 
 const coffeeItems = [
-  { id: 1, name: "Espresso", price: "$3.50", img: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=500", desc: "Pure, bold, and intense rich espresso shot." },
+{ id: 1, name: "Espresso", price: "$3.50", img: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=500", desc: "Pure, bold, and intense rich espresso shot." },
   { id: 2, name: "Cappuccino", price: "$4.50", img: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500", desc: "Espresso topped with steamed milk and thick foam." },
   { id: 3, name: "Caffe Latte", price: "$4.00", img: "https://images.unsplash.com/photo-1534778101976-62847782c213?w=500", desc: "Smooth espresso combined with velvety steamed milk." },
   { id: 4, name: "Caramel Macchiato", price: "$5.00", img: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=500", desc: "Fresh espresso drizzled with rich caramel syrup." },
   { id: 5, name: "Mocha", price: "$4.75", img: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=500", desc: "Rich chocolate flavor blended with bold espresso." },
   { id: 6, name: "Cold Brew", price: "$4.25", img: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500", desc: "Steeped for 12 hours for maximum smooth flavor." },
   { id: 7, name: "Flat White", price: "$4.50", img: "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?w=500", desc: "Microfoam poured over a double shot of espresso." },
-  { id: 8, name: "Iced Americano", price: "$3.75", img: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=500", desc: "Chilled espresso served with ice and cold water." }
-];
+  { 
+  id: 8, name: "Iced Americano",  price: "$3.75", img: "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=500&auto=format&fit=crop&q=60",  desc: "Chilled espresso served with ice and cold water." 
+}]
 
 const Menu = () => {
   return (
