@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
-
-const About = () => {
+import aboutPic from '../assets/about pic.avif'; 
+const AboutUs = () => {  
   return (
     <section id="about" className="about-section py-5">
       <div className="container">
@@ -9,7 +9,7 @@ const About = () => {
           <div className="col-lg-6">
             <div className="about-img-box position-relative">
               <img 
-                src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&q=80&w=800" 
+              src={aboutPic}  
                 alt="About Our Coffee" 
                 className="img-fluid rounded-4 shadow-lg about-main-img"
               />
@@ -47,4 +47,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutUs;
